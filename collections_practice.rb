@@ -49,7 +49,7 @@ def add_s(array)
       s[1] = s[1]
     elsif s != "feet"
       s[-1] = "s"
-      puts s 
-  end 
- end 
+      s 
+  end
+ end
 end
