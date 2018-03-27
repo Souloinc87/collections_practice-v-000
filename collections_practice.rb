@@ -47,7 +47,9 @@ def add_s(array)
   array.collect do |s|
     if s[1] == "feet"
       s[1] = s[1]
-    else
+    elsif s != "feet"
       s[-1] = "s"
+      puts s 
   end 
-end 
+ end 
+end
