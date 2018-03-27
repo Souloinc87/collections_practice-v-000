@@ -35,4 +35,5 @@ end
 
 def find_a(array)
   array.collect {|x| x.start_with?("a")}
+  x 
 end
