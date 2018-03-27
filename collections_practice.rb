@@ -18,7 +18,7 @@ def swap_elements(array)
   return array
 end
 
-def swap_elements_from_to(array, index, destination_index)
-  destination_index = array[index]
-  return destination_index 
-end
+#def swap_elements_from_to(array, index, destination_index)
+  #destination_index = array[index]
+  #return destination_index
+#end
