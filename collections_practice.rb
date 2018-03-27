@@ -32,3 +32,7 @@ def kesha_maker(array)
     dollar[2] = "$"
   end
 end
+
+def find_a(array)
+  array.find {|x| x == "a"}
+end
