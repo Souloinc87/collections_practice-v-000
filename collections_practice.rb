@@ -45,11 +45,11 @@ end
 
 def add_s(array)
   array.collect do |s|
-    if s[1] == "feet"
-      s[1] = s[1]
+    if s[1] == s 
+      s
     elsif s != "feet"
-      s[-1] + "s"
-      s 
+      s + "s"
+      s
   end
  end
 end
