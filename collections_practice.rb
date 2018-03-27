@@ -22,3 +22,7 @@ end
   #destination_index = array[index]
   #return destination_index
 #end
+
+def reverse_array(array)
+  array.reverse!
+end 
