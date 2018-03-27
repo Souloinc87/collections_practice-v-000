@@ -35,5 +35,5 @@ end
 
 def find_a(array)
   array.detect {|x| x[0] == "a"}
-  return x 
+   x 
 end
